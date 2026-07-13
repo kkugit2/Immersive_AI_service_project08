@@ -1,0 +1,23 @@
+{
+  "name": "teamroom",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TeamRoom - 3~10명 소규모 팀을 위한 실시간 소통 웹앱 (Supabase 백엔드 연동)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "prismjs": "^1.29.0",
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4",
+    "jsdom": "^25.0.1"
+  }
+}
